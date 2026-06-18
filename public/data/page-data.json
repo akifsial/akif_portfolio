@@ -1,0 +1,113 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "contact.akifsial@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:contact.akifsial@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+92 301 9050165",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+923019050165"
+      },
+      {
+        "type": "website",
+        "label": "www.mywebsite.com",
+        "icon": "/images/icon/web-icon.svg",
+        "link": "https://www.mywebsite.com"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "dribbble",
+        "icon": "/images/icon/dribble-icon.svg",
+        "link": "https://dribbble.com"
+      },
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://linkedin.com"
+      },
+      {
+        "platform": "facebook",
+        "icon": "/images/icon/facebook-icon.svg",
+        "link": "https://facebook.com"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "ICS - 2018-2020",
+        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form Koramangala collage."
+      },
+      {
+        "title": "Bachelors in Computer Science - 2020-2024",
+        "description": "Combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
+      }
+    ],
+    "skills": [
+      {
+        "name": "JS",
+        "icon": "/images/home/education-skill/js-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "React.js",
+        "icon": "/images/home/education-skill/react-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Next.js",
+        "icon": "/images/home/education-skill/nextjs-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "/images/home/education-skill/tailwind-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "TypeScript",
+        "icon": "/images/home/education-skill/ts-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Redux",
+        "icon": "/images/home/education-skill/redux-icon.svg",
+        "rating": 3
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "Dribble",
+        "href": "/"
+      },
+      {
+        "title": "Facebook",
+        "href": "/"
+      },
+      {
+        "title": "LinkedIn",
+        "href": "/"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "contact.akifsial@gmail.com",
+        "link": "mailto:contact.akifsial@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+92 301 9050165",
+        "link": "tel:+923019050165"
+      }
+    ]
+  }
+}
