@@ -3,16 +3,22 @@ import { getDataPath, getImgPath } from "@/utils/image";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import WorkModal from "./WorkModal";
+import { useRouter } from "next/navigation";
 
 const LatestWork = () => {
   const [workData, setWorkData] = useState<any>(null);
+  const [selectedWork, setSelectedWork] = useState<any>(null);
+  const router = useRouter();
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const res = await fetch(getDataPath("/data/work-data.json"));
         if (!res.ok) throw new Error("Failed to fetch");
+
         const data = await res.json();
+
         setWorkData(data?.workData);
       } catch (error) {
         console.error("Error fetching services:", error);
@@ -31,12 +37,18 @@ const LatestWork = () => {
               <h2>Latest Works</h2>
               <p className="text-xl text-orange-500">( 04 )</p>
             </div>
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-6 xl:gap-y-12">
               {workData?.map((value: any, index: any) => {
                 return (
                   <div
                     key={index}
-                    className="group flex flex-col gap-3 xl:gap-6"
+                    className="group flex flex-col gap-3 xl:gap-6 cursor-pointer"
+                    // onClick={() => setSelectedWork(value)}
+                    onClick={() => {
+                      setSelectedWork(value);
+                      window.open(value.projectUrl, "_blank");
+                    }}
                   >
                     <div className="relative">
                       <Image
@@ -47,8 +59,13 @@ const LatestWork = () => {
                         className="rounded-lg w-full h-full object-cover"
                       />
                       <Link
-                        onClick={(e) => e.preventDefault()}
-                        href={"#!"}
+                        href={value.projectUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          setSelectedWork(value);
+                        }}
                         className="absolute top-0 left-0 backdrop-blur-xs bg-primary/15 w-full h-full hidden group-hover:flex rounded-lg"
                       >
                         <span className="flex justify-center items-center p-5 w-full">
@@ -79,7 +96,11 @@ const LatestWork = () => {
                     </div>
                     <div className="flex flex-col gap-0 xl:gap-2">
                       <div className="flex items-center justify-between">
-                        <Link href={`${value.slug}`}>
+                        <Link
+                          href={value.projectUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <h5>{value?.title}</h5>
                         </Link>
                         <Image
@@ -89,11 +110,14 @@ const LatestWork = () => {
                           height={30}
                         />
                       </div>
-                      <p>Client: {value?.client}</p>
+                      <p>
+                        <b>Description</b>: {value?.description}
+                      </p>
                     </div>
                   </div>
                 );
               })}
+              {/* {selectedWork && <WorkModal work={selectedWork} onClose={() => setSelectedWork(null)} />} */}
             </div>
           </div>
         </div>
