@@ -2,39 +2,56 @@
   "workData": [
     {
       "image": "/images/work/work-img-1.jpg",
-      "title": "Mug Sticker Designing",
+      "title": "ESA HELPER",
       "client": "John Honnai",
-      "slug": "mug-sticker-designing"
+      "slug": "mug-sticker-designing",
+      "description": "ESA Helper is a SaaS platform that streamlines Education Savings Account (ESA) reimbursements by automating receipt management, document generation, and ClassWallet submissions.",
+      "video": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "videoEmbed": "https://www.youtube.com/embed/aqz-KE-bpKQ",
+      "gallery": [
+        "/images/work/work-img-1.jpg",
+        "/images/work/work-img-2.jpg",
+        "/images/work/work-img-3.jpg"
+      ],
+      "skills": ["Photoshop", "Illustrator", "Figma"],
+      "projectUrl": "https://esahelper.com",
+      "githubUrl": "https://github.com/example/mug-sticker-designing"
     },
     {
       "image": "/images/work/work-img-2.jpg",
-      "title": "Mobile App Design",
+      "title": "PIF PERFECT",
       "client": "John Honnai",
-      "slug": "mobile-app-design"
+      "slug": "mobile-app-design",
+      "description":"PIF Perfect is a web-based sales management platform for tracking performance, managing sales data, and delivering AI-powered business insights.",
+      "projectUrl": "https://pifperfect.com"
     },
     {
       "image": "/images/work/work-img-3.jpg",
-      "title": "Fashion Website Template",
+      "title": "Nahj For All",
       "client": "John Honnai",
-      "slug": "fashion-website-template"
+      "slug": "fashion-website-template",
+      "description":"NahjForAll ERP is a comprehensive enterprise resource planning (ERP) system that streamlines business operations by integrating finance, inventory, sales, HR, and reporting into a single platform.",
+      "projectUrl": "https://nahjerp.com"
+
     },
     {
       "image": "/images/work/work-img-4.jpg",
-      "title": "Book Cover Design",
+      "title": "Maximum Health Performance",
       "client": "John Honnai",
-      "slug": "book-cover-design"
+      "slug": "book-cover-design",
+      "description":"Maximum Health Performance is a modern health and wellness platform offering personalized fitness programs, performance training, rehabilitation, and expert guidance to help individuals achieve their health and fitness goals.",
+      "projectUrl": "https://mph-health-web-c9eq.vercel.app"
+
     },
-    {
-      "image": "/images/work/work-img-5.jpg",
-      "title": "Mobile App Design",
-      "client": "John Honnai",
-      "slug": "mobile-app-design"
-    },
+   
     {
       "image": "/images/work/work-img-6.jpg",
-      "title": "Mug Sticker Designing",
+      "title": "Top Senior Spot",
       "client": "John Honnai",
-      "slug": "mug-sticker-designing"
+      "slug": "mug-sticker-designing",
+       "description":"Top Senior Spot is a senior care management platform featuring dedicated dashboards for patients, caregivers, and administrators, with real-time location tracking, interactive maps, scheduling, and care coordination for efficient healthcare management.",
+      "projectUrl": "https://github.com/akifsial/pulsepoint-react-dashboard"
+
     }
   ]
 }
