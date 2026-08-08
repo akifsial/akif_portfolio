@@ -15,9 +15,9 @@
       },
       {
         "type": "website",
-        "label": "www.mywebsite.com",
+        "label": "https://akif-dev-portfolio.vercel.app/",
         "icon": "/images/icon/web-icon.svg",
-        "link": "https://www.mywebsite.com"
+        "link": "https://akif-dev-portfolio.vercel.app/"
       }
     ],
     "socialItems": [
@@ -85,15 +85,15 @@
   "contactLinks": {
     "socialLinks": [
       {
-        "title": "Dribble",
+        "title": "",
         "href": "/"
       },
       {
-        "title": "Facebook",
+        "title": "",
         "href": "/"
       },
       {
-        "title": "LinkedIn",
+        "title": "",
         "href": "/"
       }
     ],

@@ -35,12 +35,11 @@ const AboutMe = () => {
 
               <div className="w-full lg:max-w-2xl flex-1">
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even slightly believable. If you are going to use a passage of
-                  Lorem Ipsum, you need to be sure there isn't anything
-                  embarrassing hidden in the middle of text.
+                  Front-End Developer with 3+ years of experience delivering scalable, robust, and high-performance web
+applications. Specialized in React.js, Next.js, TypeScript, Redux Toolkit, Tailwind CSS, and Bootstrap.
+Experienced in delivering complex dashboards, admin panels, e-commerce platforms, and real-time
+applications. Also skilled in full-stack development using Node.js, Express.js, MongoDB, REST APIs, secure
+authentication systems, and WebSockets
                 </p>
 
                 <div className="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-mistGray">
