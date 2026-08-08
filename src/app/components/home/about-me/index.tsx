@@ -67,7 +67,7 @@ authentication systems, and WebSockets
                     <p className="text-base xl:text-xl text-black">Language</p>
                   </div>
                   <div className="flex flex-wrap justify-center items-center gap-2.5">
-                    {["English","Italian", "Urdu", ""].map((lang) => (
+                    {["English","Urdu", "Italian"].map((lang) => (
                       <p
                         key={lang}
                         className="bg-white py-2 md:py-3.5 px-4 md:px-5 w-fit rounded-full text-base xl:text-xl"
