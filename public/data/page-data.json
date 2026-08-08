@@ -21,21 +21,13 @@
       }
     ],
     "socialItems": [
-      {
-        "platform": "dribbble",
-        "icon": "/images/icon/dribble-icon.svg",
-        "link": "https://dribbble.com"
-      },
+    
       {
         "platform": "linkedin",
         "icon": "/images/icon/linkedin-icon.svg",
         "link": "https://linkedin.com"
-      },
-      {
-        "platform": "facebook",
-        "icon": "/images/icon/facebook-icon.svg",
-        "link": "https://facebook.com"
       }
+     
     ]
   },
   "educationData": {

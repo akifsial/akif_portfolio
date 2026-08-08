@@ -8,7 +8,7 @@ const ExperienceSec = () => {
       company: "YODO Designs",
       type: "Fulltime",
       description:
-        "Suffered alteration in some form by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum",
+        "",
     },
     {
       year: "2025 - Present",
@@ -16,7 +16,7 @@ const ExperienceSec = () => {
       company: "Reown Logics",
       type: "Fulltime",
       description:
-        "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem",
+        "",
     },
   ];
 

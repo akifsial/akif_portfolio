@@ -54,7 +54,7 @@ const ContactBar = () => {
             </div>
 
             {/* Social Items */}
-            <div className="flex items-center justify-center md:justify-end gap-4 md:gap-2.5">
+            {/* <div className="flex items-center justify-center md:justify-end gap-4 md:gap-2.5">
               {contactBarData?.socialItems?.map((value: any, index: number) => (
                 <Link
                   key={index}
@@ -70,7 +70,7 @@ const ContactBar = () => {
                   />
                 </Link>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
